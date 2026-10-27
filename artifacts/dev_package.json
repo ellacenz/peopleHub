@@ -1,0 +1,109 @@
+{
+	"id": "a1bace94-40c9-f111-bf5b-000d3ab82ee9",
+	"createdAt": "2026-10-16T09:04:24.683Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/ellacenz/peopleHub.git",
+		"branch": "master"
+	},
+	"name": "T000_PeopleHub",
+	"description": null,
+	"ver": "26.10.27.0936",
+	"enableCICD": true,
+	"internalReadOnly": false,
+	"oeVersion": null,
+	"excludeTemplateFiles": false,
+	"roles": [],
+	"apps": [
+		{
+			"id": "906ec5b2-41c9-f111-bf5b-000d3ab82ee9",
+			"application": "t000_onboardingchecklist",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [
+		{
+			"id": "d97ccc60-41c9-f111-bf5b-000d3ab82ee9",
+			"name": "T000_OnboardingAPI",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "3ad686b6-40c9-f111-bf5b-000d3ab82ee9",
+			"name": "t000_onboardingtask",
+			"description": null
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"theme_generator": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "b8b140cb-42c9-f111-bf5b-000d3ab82ee9",
+			"description": null,
+			"name": "T000_Onboarding"
+		}
+	],
+	"tile_layout": [],
+	"category": [
+		{
+			"id": "dca45306-43c9-f111-bf5b-000d3ab82ee9",
+			"description": null,
+			"name": "T000_Me"
+		}
+	],
+	"tilegroup_layout": [],
+	"launchpad": [
+		{
+			"id": "9323b639-43c9-f111-bf5b-000d3ab82ee9",
+			"name": "T000_PeopleHub",
+			"description": null
+		}
+	],
+	"launchpad_layout": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"i18n": [
+		{
+			"id": "36dee245-42c9-f111-bf5b-000d3ab82ee9",
+			"name": "t000_onboardingchecklist",
+			"description": null
+		}
+	],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": [],
+	"theme_ui5": [],
+	"webapp": [],
+	"ui5_control": [],
+	"ai_agent": [],
+	"ai_model": [],
+	"ai_prompt": [],
+	"ai_tool": [],
+	"ai_guardrail": [],
+	"sap_data_source": [],
+	"path_rewrite": [],
+	"font": [],
+	"vault": [],
+	"workflow": [],
+	"workflow_logs": []
+}

@@ -1,0 +1,168 @@
+{
+	"id": "906ec5b2-41c9-f111-bf5b-000d3ab82ee9",
+	"createdAt": "2026-10-16T09:12:24.450Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "0526e5c2-9f4e-4d2c-a88e-39053d4b46b6",
+			"fieldName": "App",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "034b50d6-7bc8-4606-ad09-9948eda143ca",
+					"fieldName": "Page",
+					"fieldParent": "0526e5c2-9f4e-4d2c-a88e-39053d4b46b6",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "8f37d042-5170-4bee-b1a0-dac9b21a0366",
+							"fieldName": "List",
+							"fieldParent": "034b50d6-7bc8-4606-ad09-9948eda143ca",
+							"fieldType": "sap.m.List",
+							"script": "",
+							"bindingValue": "T000_OnboardingAPI>/t000_onboardingtask",
+							"bindingType": "h",
+							"bindingSource": "API",
+							"bindingParentID": "D97CCC60-41C9-F111-BF5B-000D3AB82EE9",
+							"bindingPathID": "7B571F2D-3367-422C-A431-42C35BB43D0D",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "ea26b427-d76e-47d4-cfbd-8d265b692116",
+									"fieldName": "StandardListItem",
+									"fieldParent": "8f37d042-5170-4bee-b1a0-dac9b21a0366",
+									"fieldType": "sap.m.StandardListItem",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "title",
+											"grouping": "Properties",
+											"value": "{title}",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "description",
+											"grouping": "Properties",
+											"value": "{dueDate}",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "7f6708f3-9188-4790-9d4d-0c736e750185",
+					"fieldName": "RestAPI",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"restSource": "d97ccc60-41c9-f111-bf5b-000d3ab82ee9",
+					"restOperation": "7b571f2d-3367-422c-a431-42c35bb43d0d",
+					"request": [],
+					"response": [
+						{
+							"status": "200",
+							"dataId": "ce0b67e9-73af-4093-a212-86e88e3ccf2a",
+							"modelFieldNo": "8f37d042-5170-4bee-b1a0-dac9b21a0366"
+						}
+					],
+					"attributes": [
+						{
+							"attribute": "setInitLoad",
+							"grouping": "Model",
+							"value": "online",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"iaSettings": {
+		"denylist": [],
+		"allowlist": []
+	},
+	"ver": "26.10.16.0919",
+	"application": "t000_onboardingchecklist",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_integration": false,
+	"ui5_chart": false,
+	"ui5_dxp_ui": false,
+	"ui5_theme": "",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"disableIntelligence": false,
+	"activationHistoryCount": 0,
+	"package": "a1bace94-40c9-f111-bf5b-000d3ab82ee9",
+	"apis": [
+		{
+			"id": "d97ccc60-41c9-f111-bf5b-000d3ab82ee9",
+			"name": "T000_OnboardingAPI",
+			"ver": "26.10.16.0910"
+		}
+	],
+	"i18n": []
+}

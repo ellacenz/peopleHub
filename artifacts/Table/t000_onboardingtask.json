@@ -1,0 +1,37 @@
+{
+	"id": "3ad686b6-40c9-f111-bf5b-000d3ab82ee9",
+	"createdAt": "2026-10-16T09:05:21.256Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"fields": [
+		{
+			"id": "4657cb0a-7aa5-43ed-dc2d-b37adb1d1c32",
+			"fieldName": "title",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "c78ed407-2f31-4de7-acec-4651f40a8e49",
+			"fieldName": "dueDate",
+			"fieldType": "timestamp",
+			"isUnique": false
+		},
+		{
+			"id": "a4e8abf6-1ebd-49db-bf0e-9e1868a40a6b",
+			"fieldName": "done",
+			"fieldType": "boolean",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"vectorStoreConfig": {},
+	"name": "t000_onboardingtask",
+	"description": null,
+	"ver": "26.10.16.0906",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "a1bace94-40c9-f111-bf5b-000d3ab82ee9",
+	"generationStrategy": "uuid",
+	"rolesRead": [],
+	"rolesWrite": []
+}
